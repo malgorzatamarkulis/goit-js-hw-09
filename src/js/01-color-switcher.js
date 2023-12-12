@@ -12,11 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
         timer = setInterval(() => {
             document.body.style.backgroundColor = getRandomHexColor();
         }, 1000);
+
     });
 
     stopBtn.addEventListener('click', () => {
         startBtn.disabled = false;
         stopBtn.disabled = true;
         clearInterval(timer);
+        console.log("Color-changing stopped");
     });
 });
+
