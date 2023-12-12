@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
+    <div class="shadow">
     <p><a href="index.html">Go back</a></p>
 
     <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
+    <button type="button" data-start disabled>Start</button>
 
     <div class="timer">
       <div class="field">
@@ -29,6 +30,7 @@
         <span class="value" data-seconds>00</span>
         <span class="label">Seconds</span>
       </div>
+    </div>
     </div>
 
     <script src="js/02-timer.js" type="module"></script>
