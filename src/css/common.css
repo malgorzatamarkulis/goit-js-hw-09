@@ -69,3 +69,12 @@ form {
   flex-direction: column;
   gap: 25px;
 }
+
+.btn-create {
+  width: 100px;
+  height: 50px;
+  box-shadow: 4px 4px 4px rgb(33, 112, 136);
+  border: none;
+  background: rgb(8, 160, 230);
+  border-radius: 30px;
+}
